@@ -1,9 +1,9 @@
 from Engine import Engine
 
 class Car:
+    engine = Engine()  # Composition: Car owns Engine
     def __init__(self, model):
         self.model = model
-        self.engine = Engine()  # Composition: Car owns Engine
 
     def start_car(self):
         return f"{self.engine.start()} in the {self.model} car."

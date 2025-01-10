@@ -15,17 +15,17 @@ if __name__ == "__main__":
     # dog.set_name("Max")
     # print(f"The dog's new name is {dog.get_name()}")
 
-    # Inheritance and Polymorphism
-    # cat = Cat("Whiskers")
+    #Inheritance and Polymorphism
+    cat = Cat("Big Mini")
     # animal_behavior(dog)  # Polymorphism: Dog behavior
     # animal_behavior(cat)  # Polymorphism: Cat behavior
 
     # Association
-    # person = Person("Sajib")
+    # person = Person("Prodip")
     # person.adopt_pet(cat)  # Alice adopts a dog
     # print(f"{person.name} has adopted a pet named {person.pet.get_name()}.")
 
-    # Composition
+    # # Composition
     car = Car("Tesla Model S")
     print(car.start_car())
     print(car.stop_car())
